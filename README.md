@@ -63,7 +63,7 @@ X_pca = pca.fit_transform(X_scaled)
 ---
 
 ## 5. 🤖 Clustering Algorithms
-# 📌 K-Means
+### 📌 K-Means
 
 Optimal clusters determined using elbow method
 
@@ -71,13 +71,13 @@ Applied KMeans(n_clusters=3)
 
 Visualized in PCA space
 
-# 🧬 Hierarchical Clustering
+### 🧬 Hierarchical Clustering
 
 Dendrogram plotted using scipy.cluster.hierarchy
 
 Applied AgglomerativeClustering(n_clusters=3, linkage='ward')
 
-# 🌐 DBSCAN
+### 🌐 DBSCAN
 
 Optimal eps found using k-distance graph
 
@@ -100,7 +100,7 @@ DBSCAN	0.471	3
 
 ---
 
-# 📷 Visualizations
+### 📷 Visualizations
 K-Means Clustering (PCA)
 
 Hierarchical Clustering (PCA)
@@ -109,7 +109,7 @@ DBSCAN Clustering (PCA)
 
 ---
 
-# 🚀 Tools Used
+### 🚀 Tools Used
 
 Python
 
@@ -121,7 +121,7 @@ Plotly
 
 ---
 
-# 📌 Conclusion
+### 📌 Conclusion
 
 Hierarchical clustering outperforms others on the Iris dataset (based on ARI).
 
