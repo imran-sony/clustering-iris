@@ -12,10 +12,15 @@ Clustering results are evaluated using the **Adjusted Rand Index (ARI)**, and vi
 ## 📂 Project Structure
 
 **Data Loading & Preparation**
+
 **Feature Scaling**
+
 **Exploratory Data Analysis**
+
 **PCA (Principal Component Analysis)**
+
 **Clustering Algorithms**
+
 **Evaluation Metrics**
 
 ---
@@ -91,10 +96,7 @@ Identified outliers and arbitrary-shaped clusters
 
 Evaluated with Adjusted Rand Index (ARI) using known labels.
 
-Algorithm	ARI Score	Clusters
-K-Means	0.433	3
-Hierarchical	0.615	3
-DBSCAN	0.471	3
+![Evaluation](./evaluation.png)  
 
 📌 Highest ARI achieved with Hierarchical Clustering.
 
